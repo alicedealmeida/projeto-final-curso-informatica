@@ -482,7 +482,7 @@ label, input, select {
     border: 3px solid black;
 }
 
-label, p {
+label, form p {
     margin: 2rem 0 2rem 0;
     font-size: 2rem;
 }
