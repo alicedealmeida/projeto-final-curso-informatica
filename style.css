@@ -346,6 +346,8 @@ li > .current {
     border-radius: 1%;
     padding: 3rem 4rem 0 4rem;
     text-align: justify;
+    width: 60%;
+    align-self: center;
 }
 .metodologia > p {
     padding-bottom: 3rem;
@@ -518,6 +520,20 @@ textarea {
 
 #submit:hover {
     background-color: var(--yellow);
+}
+
+.form-success {
+    background-color: white;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-success > p {
+    padding-top: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -787,6 +803,10 @@ footer {
 
     .nivel > img {
         width: 40%;
+    }
+
+    .metodologia {
+        width: 100%;
     }
 
     /* section-depoimentos */
