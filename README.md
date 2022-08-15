@@ -3,7 +3,7 @@
 Website para divulgar o trabalho de um professor de violão. <br>
 Projeto realizado para conclusão de Curso Técnico em Informática (jul/2022). 
 
-[Link para acesso](https://lucasthomaz.netlify.app/)
+[Website - Lucas Thomaz](https://lucasthomaz.netlify.app/)
 
 # O que aprendi?
 
