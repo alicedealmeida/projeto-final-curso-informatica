@@ -60,7 +60,7 @@
         <a href="tel:5541985153405">55 41 98515-3405</a>      
     </address>
     <h2 class="form-title">Ou utilize o formulário abaixo para entrar em contato:</h2>
-    <form action="#">
+    <form id="contato" method="post" name="contato" action="success.html" netlify>
         <label for="nome" id="nome-label">Nome</label>
         <input type="text" class="form-input-box" name="nome" id="nome" required/>
         
@@ -70,9 +70,9 @@
         <label for="telefone" id="telefone-label">Telefone</label>
         <input type="tel" class="form-input-box" name="telefone" id="telefone" required/>
         
-        <label for="dia">Em qual dia da semana você deseja fazer aula?</label>
+        <label for="dia">Possui preferência por algum dia da semana para fazer aula?</label>
         <select class="form-input-box" id="dia" name="dia">
-            <option disabled selected value>Selecione um dia</option>
+            <option disabled selected value>Selecione um dia (opcional)</option>
             <option value="segunda">Segunda-feira</option>
             <option value="terca">Terça-feira</option>
             <option value="quarta">Quarta-feira</option>
@@ -84,40 +84,12 @@
         <label for="horario" id="horario-label">Qual seu horário ideal para fazer aula? (fuso horário de Brasília)</label>
         <input type="time" class="form-input-box" name="horario" id="horario"  min="07:30" max="20:30" required/>
 
-        <p>
-            Com qual frequência deseja fazer aulas?
-        </p>
-        <label for="uma-vez-por-semana">
-            <input type="radio" id="uma-vez-por-semana" name="frequencia" value="uma-vez-por-semana">
-            Uma vez por semana
-        </label>
-        <label for="uma-vez-cada-duas-semanas">
-            <input type="radio" id="uma-vez-cada-duas-semanas" name="frequencia" value="uma-vez-cada-duas-semanas">
-            Uma vez a cada duas semanas
-        </label>
-
-        <p>
-            Qual duração de aula deseja?
-        </p>
-        <label for="uma-hora">
-            <input type="radio" id="uma-hora" name="duracao" value="uma-hora">
-            1 hora
-        </label>
-        <label for="quarenta-min">
-            <input type="radio" id="quarenta-min" name="duracao" value="quarenta-min">
-            40 minutos
-        </label>
-
         <label for="mensagem">Algum outro comentário ou dúvida?</label>
         <textarea name="mensagem" placeholder="Deixe aqui sua mensagem (opcional)"></textarea>
 
         <button type="submit" id="submit">
     	Enviar
         </button>
-
-
-
-
     </form>
 
     
@@ -164,7 +136,5 @@
 </script>
 
 </body>
-
-
 
 </html>
