@@ -9,5 +9,5 @@ Projeto realizado para conclusão de Curso Técnico em Informática (jul/2022).
 
 - Layout com CSS Flexbox
 - Design Responsivo
-- Criação de menu responsivo com JS
+- Criação de menu responsivo com JS e flexbox
 - Hospedagem e integração de formulários com Netlify
