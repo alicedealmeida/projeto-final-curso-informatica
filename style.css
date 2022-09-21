@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&family=Lato:wght@100;300&family=Miriam+Libre:wght@400;700&family=Raleway:wght@100;300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');:root {
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&family=Lato:wght@100;300&family=Miriam+Libre:wght@400;700&family=Raleway:wght@100;300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+:root {
     --body-bg: #ffffff;
     --text: #000000;
     --yellow: #FFB422;
